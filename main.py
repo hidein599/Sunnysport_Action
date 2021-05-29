@@ -71,5 +71,5 @@ if todayRecord:
         'title': '阳光长跑记录已更新',
         'desp': desp
     }
-    httpx.gett('https://dianbao.vercel.app/send/{}/{}'.format(SendKey,desp))
+    httpx.get('https://dianbao.vercel.app/send/{}/{}'.format(SendKey,desp))
     
